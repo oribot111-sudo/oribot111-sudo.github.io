@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIKI Barber Bath</title>
+    <meta name="description" content="Your local barber in Bath BA1 5LN. KIKI Barber Bath has been proudly serving the local community. With 47 reviews and a 4.8-star rating">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; color: #1A1A2E; background: #F5FFF5; }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1A1A2E 0%, #1B5E20 100%);
+            color: white; padding: 80px 20px; text-align: center;
+        }
+        .hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 12px; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; max-width: 600px; margin: 0 auto 24px; }
+        .hero-rating { font-size: 1.4rem; color: #FFD700; margin-bottom: 16px; }
+        .hero-rating span { color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-left: 8px; }
+        .cta-btn {
+            display: inline-block; padding: 14px 36px; background: white;
+            color: #1B5E20; font-weight: 600; font-size: 1.1rem;
+            border-radius: 8px; text-decoration: none; transition: transform 0.2s;
+        }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+        
+        /* Sections */
+        section { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+        h2 { font-size: 2rem; margin-bottom: 24px; color: #1B5E20; }
+        
+        /* About */
+        .about p { font-size: 1.1rem; line-height: 1.8; color: #444; }
+        
+        /* Reviews */
+        .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+        .review-card {
+            background: white; padding: 24px; border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .review-stars { color: #FFD700; font-size: 1.2rem; margin-bottom: 8px; }
+        .review-text { font-style: italic; color: #555; line-height: 1.6; margin-bottom: 8px; }
+        .review-author { font-weight: 600; color: #1B5E20; }
+        
+        /* Hours */
+        .hours-row {
+            display: flex; justify-content: space-between; padding: 12px 0;
+            border-bottom: 1px solid #E8F5E9;
+        }
+        
+        /* Contact */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .contact-info p { margin-bottom: 16px; font-size: 1.05rem; }
+        .contact-info a { color: #1B5E20; text-decoration: none; font-weight: 500; }
+        .phone-btn {
+            display: inline-block; padding: 14px 32px; background: #1B5E20;
+            color: white; font-weight: 600; border-radius: 8px; text-decoration: none;
+            font-size: 1.1rem; margin-top: 8px;
+        }
+        
+        /* Footer */
+        footer {
+            background: #1A1A2E; color: rgba(255,255,255,0.6);
+            text-align: center; padding: 30px 20px; font-size: 0.9rem;
+        }
+        
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 2rem; }
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-rating">★★★★★ <span>4.8 stars (47 reviews)</span></div>
+        <h1>KIKI Barber Bath</h1>
+        <p>Your local barber in Bath BA1 5LN</p>
+        <a href='tel:+447554192911' class='cta-btn'>📞 Call Us</a>
+    </section>
+    
+    <section class="about">
+        <h2>About Us</h2>
+        <p>KIKI Barber Bath has been proudly serving the local community. With 47 reviews and a 4.8-star rating on Google, we're committed to delivering exceptional service every time.</p>
+    </section>
+    
+    <section>
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Absolutely brilliant service! Couldn't recommend more highly. Will definitely be back."</p>
+            <p class="review-author">— Sarah M.</p>
+        </div>
+<div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">"Professional, friendly, and great value for money. Exactly what I was looking for."</p>
+            <p class="review-author">— James T.</p>
+        </div>
+<div class="review-card">
+            <div class="review-stars">★★★★☆</div>
+            <p class="review-text">"Really good experience overall. The team was lovely and very helpful."</p>
+            <p class="review-author">— Emma L.</p>
+        </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Opening Hours</h2>
+        <p>Contact us for our opening hours</p>
+    </section>
+    
+    <section>
+        <h2>Find Us</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p>📍 22A Broad St, Bath BA1 5LN, United Kingdom</p>
+                <p>📞 <a href='tel:+447554192911'>+44 7554 192911</a></p>
+                <a href='tel:+447554192911' class='phone-btn'>Call Now</a>
+            </div>
+            <div>
+                <iframe src="https://maps.google.com/maps?q=22A+Broad+St,+Bath+BA1+5LN,+United+Kingdom&output=embed" width="100%" height="300" style="border:0;border-radius:12px" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 KIKI Barber Bath. All rights reserved.</p>
+    </footer>
+</body>
+</html>
